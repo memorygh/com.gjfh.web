@@ -1,5 +1,6 @@
 package com.gjfh.web.controller;
 
+import com.gjfh.web.pojo.SysUser;
 import com.gjfh.web.service.SysUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
