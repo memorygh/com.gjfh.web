@@ -8,8 +8,8 @@
     String cdntime = String.valueOf(System.currentTimeMillis());
     request.setAttribute("cdntime",cdntime);
 %>
-<c:set value="${pageContext.request.contextPath}" var="contextPath" />
+<%--<c:set value="${pageContext.request.contextPath}" var="contextPath" />--%>
 <%
-    String webRoot = "http://" + request.getServerName() + ":" + request.getServerPort() + "/" + request.getContextPath();
+    String webRoot = "http://" + request.getServerName() + ":" + request.getServerPort();
     request.setAttribute("webRoot",webRoot);
 %>
