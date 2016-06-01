@@ -337,6 +337,12 @@
       <version>${commons-lang3.version}</version>
     </dependency>
 
+    <!-- QRcode 二维码生成 -->
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.1</version>
+</dependency>
 
   </dependencies>
   <!--架包依赖 end-->
