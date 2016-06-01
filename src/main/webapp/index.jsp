@@ -60,8 +60,8 @@
 
                     <!-- name-and-slogan -->
                     <div class="site-name-and-slogan smooth-scroll">
-                        <div class="site-name"><a href="#banner">Worthy</a></div>
-                        <div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div>
+                        <div class="site-name"><a href="#banner">北京国经富华矿业有限责任公司</a></div>
+                        <div class="site-slogan">Beijing Guojingfuhua CO.,LTD</div>
                     </div>
 
                 </div>
