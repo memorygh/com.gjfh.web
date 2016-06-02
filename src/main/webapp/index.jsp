@@ -60,7 +60,7 @@
 
                     <!-- name-and-slogan -->
                     <div class="site-name-and-slogan smooth-scroll">
-                        <div class="site-name"><a href="#banner">北京国经富华矿业有限责任公司</a></div>
+                        <div class="site-name"><a href="#banner">北京国经富华矿业</a></div>
                         <div class="site-slogan">Beijing Guojingfuhua CO.,LTD</div>
                     </div>
 
@@ -96,12 +96,12 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a href="#banner">Home</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#clients">Clients</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li class="active"><a href="#banner">主页</a></li>
+                                        <li><a href="#about">关于</a></li>
+                                        <li><a href="#services">服务</a></li>
+                                        <li><a href="#portfolio">产品</a></li>
+                                        <li><a href="#clients">客户</a></li>
+                                        <li><a href="#contact">联系我们</a></li>
                                     </ul>
                                 </div>
 
@@ -229,14 +229,14 @@
 <!-- ================ -->
 <div class="section translucent-bg bg-image-1 blue">
     <div class="container object-non-visible" data-animation-effect="fadeIn">
-        <h1 id="services"  class="text-center title">Worthy Services</h1>
+        <h1 id="services"  class="text-center title">服务</h1>
         <div class="space"></div>
         <div class="row">
             <div class="col-sm-6">
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">Service 1</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">金属矿</h4>
+                        <p>公司致力于在中国国内寻找具有战略意义的金属矿，销售金属矿石和金属材料。现正在收购新疆南晖投资发展有限公司所持有探矿权《甘肃省阿克塞县鄂博图一带同多金属矿普查》证号：T01120080202000329。</p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-cog"></i>
@@ -244,8 +244,8 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">Service 2</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">解决方案</h4>
+                        <p>为企业设计、制定相配套的一体化解决方案，在公司战略开发、经营运作、组织结构等方面提供咨询服务。典型客户：为国经五维（南阳）房地产开发有限公司提供卧龙岗名胜文化旅游景区整体开发、管理、运营方案。</p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-check"></i>
@@ -253,8 +253,8 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">Service 3</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">经济咨询</h4>
+                        <p>为地方政府和企业提供经济咨询。如为北海市人民政府、北海奇珠集团有限公司出具《北部湾沙田港及沙田港临港工业区（中国印尼产业园）产业方案研究》，该研究包括以下内容：北部湾沙田港及中国印尼产业园的发展现状和区位优势；在北部湾沙田港建设中印尼产业园的可行性及战略意义；中印尼经济比较优势及互补性研究；中印尼投资合作体制机制和政策研究；中印尼投资合作风险评估；沙田港和中印尼产业园运营模式及临港产业选择。</p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-desktop"></i>
@@ -262,8 +262,9 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">Service 4</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">战略方案</h4>
+                        <p>帮助中国企业走出去制订战略方案。针对具有强烈走出去愿望的中国大型国有企业，我公司为企业提供国际商务咨询，并为企业拓展国际市场提供战略咨询。典型客户：中国国旅集团有限公司。
+                        </p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-users"></i>
@@ -277,8 +278,8 @@
                         <i class="fa fa-leaf"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service 5</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">知识产权咨询</h4>
+                        <p>为企业提供知识产权咨询，包括知识产权侵权调查、侵权认定、制订知识产权战略、协助企业制订技术研发计划、知识产权防御性布局、知识产权进攻性布局、制订专利申请计划、实施专利保护战略。典型客户：北京珅奥基医药科技有限公司、北京盛诺基医药科技有限公司。</p>
                     </div>
                 </div>
                 <div class="media">
@@ -286,8 +287,8 @@
                         <i class="fa fa-area-chart"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service 6</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">管理咨询</h4>
+                        <p>为企业提供投资管理咨询。为国经创新（北京）投资管理有限公司提供常年投资管理咨询，为该公司在山东省威海市双岛湾整体开发项目提供投资咨询，设计投资架构，并向该公司推荐战略合作伙伴。</p>
                     </div>
                 </div>
                 <div class="media">
@@ -295,8 +296,8 @@
                         <i class="fa fa-child"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service 7</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">推广服务</h4>
+                        <p>为企业技术推广提供服务，为国内外企业在技术推广方面提供针对性的咨询服务。如为华广裕有限公司的互联网应用技术开发应用、进入中国市场提供全方位的咨询服务，帮助其在中国建立了技术推广公司，并协助该公司在中国开展业务、寻找合作伙伴，公司进入了良性发展轨道。</p>
                     </div>
                 </div>
                 <div class="media">
@@ -304,8 +305,9 @@
                         <i class="fa fa-codepen"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service 8</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+                        <h4 class="media-heading">海外投资咨询</h4>
+                        <p>为中国企业投资海外进行咨询服务。为中国企业到美国等国家进行投资提供信息服务、进行尽职调查、对投资对象进行详细考察，制订投资实施方案，协助完成投资工作。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -844,7 +846,7 @@
 <!-- ================ -->
 <div class="section translucent-bg bg-image-2 pb-clear">
     <div class="container object-non-visible" data-animation-effect="fadeIn">
-        <h1 id="clients" class="title text-center">Clients</h1>
+        <h1 id="clients" class="title text-center">客户</h1>
         <div class="space"></div>
         <div class="row">
             <div class="col-md-4">
@@ -935,47 +937,6 @@
             </div>
         </div>
     </div>
-    <!-- section start -->
-    <!-- ================ -->
-    <div class="translucent-bg blue">
-        <div class="container">
-            <div class="list-horizontal">
-                <div class="row">
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-1.png" alt="client">
-                        </div>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-2.png" alt="client">
-                        </div>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-3.png" alt="client">
-                        </div>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-4.png" alt="client">
-                        </div>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-5.png" alt="client">
-                        </div>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="list-horizontal-item">
-                            <img src="images/client-6.png" alt="client">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- section end -->
 </div>
 <!-- section end -->
 
@@ -1000,7 +961,7 @@
     <!-- ================ -->
     <div class="footer section">
         <div class="container">
-            <h1 class="title text-center" id="contact">Contact Us</h1>
+            <h1 class="title text-center" id="contact">联系我们</h1>
             <div class="space"></div>
             <div class="row">
                 <div class="col-sm-6">
