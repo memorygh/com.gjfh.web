@@ -621,6 +621,18 @@ textarea {
 .social-links li.pinterest a:hover {
 	color: #cb2027;
 }
+.social-links li.paw a:hover {
+	color: #2D21D5;
+}
+.social-links li.renren a:hover {
+	color: #217EC0;
+}
+.social-links li.weibo a:hover {
+	color: #E90030;
+}
+.social-links li.weixin a:hover {
+	color: #47C34B;
+}
 
 /* Isotope Items
 ---------------------------------- */
