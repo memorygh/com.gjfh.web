@@ -34,6 +34,6 @@ CREATE TABLE `sys_user` (
 
 # 创建表数据
 USE web_gjfh;
-insert  into `sys_user`(`user_id`,`login_name`,`login_password`,`status`,`is_delete`,`register_datetime`,`register_source`,`type`,`sex`,`is_email_active`,`is_mobile_active`,`register_type`,`pay_passwrod`,`icon`,`real_name`,`email`,`mobile`,`weibo_id`,`qq_id`) values (1,'YouMeek1','e10adc3949ba59abbe56e057f20f883e','0','N','2016-02-24 00:12:23','0','0','0','Y','Y','0','e10adc3949ba59abbe56e057f20f883e','','管理员','','','','');
+insert  into `sys_user`(`user_id`,`login_name`,`login_password`,`status`,`is_delete`,`register_datetime`,`register_source`,`type`,`sex`,`is_email_active`,`is_mobile_active`,`register_type`,`pay_passwrod`,`icon`,`real_name`,`email`,`mobile`,`weibo_id`,`qq_id`) values (1,'admin','e10adc3949ba59abbe56e057f20f883e','0','N','2016-02-24 00:12:23','0','0','0','Y','Y','0','e10adc3949ba59abbe56e057f20f883e','','管理员','','','','');
 
 
