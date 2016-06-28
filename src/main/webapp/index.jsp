@@ -61,7 +61,7 @@
                     <!-- name-and-slogan -->
                     <div class="site-name-and-slogan smooth-scroll">
                         <div class="site-name"><a href="#banner">北京国经富华</a></div>
-                        <div class="site-slogan">Beijing Guojing Fuhwa CO.,LTD</div>
+                        <div class="site-slogan">Beijing Guojing Fuhwa CO.,LTD </div>
                     </div>
 
                 </div>
