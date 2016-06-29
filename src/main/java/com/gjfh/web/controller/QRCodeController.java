@@ -28,18 +28,24 @@ public class QRCodeController {
     @RequestMapping("/generateQRCode")
     @ResponseBody
     public String generateQRCode() throws WriterException, IOException {
-        String urlStr = "http://www.jobook.cn";
-        String localPath = "/Users/Sky/Development/test";
-        String fileName = "test.png";
-        BitMatrix byteMatrix;
-        try {
-            Hashtable<EncodeHintType, Integer> hints = new Hashtable<EncodeHintType, Integer>();
-            hints.put(EncodeHintType.MARGIN, 1);
-            byteMatrix = new MultiFormatWriter().encode(new String(urlStr.getBytes("UTF-8"), "iso-8859-1"), BarcodeFormat.QR_CODE, 200, 200, hints);
-            Path path = FileSystems.getDefault().getPath(localPath, fileName);
-            MatrixToImageWriter.writeToPath(byteMatrix, "png", path);
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+        String uri = "http://book.jobook.cn/getCourse/page/*.html";
+        String localPath = "/Users/memory/test";
+        String urlStr = "";
+        String fileName = "bookName";
+        int pageNum = 55;
+        for (int i = 0; i < pageNum; i++) {
+            urlStr = uri.replace("*", String.valueOf(i));
+            fileName = "bookName" + i + 1 + ".png";
+            BitMatrix byteMatrix;
+            try {
+                Hashtable<EncodeHintType, Integer> hints = new Hashtable<EncodeHintType, Integer>();
+                hints.put(EncodeHintType.MARGIN, 1);
+                byteMatrix = new MultiFormatWriter().encode(new String(urlStr.getBytes("UTF-8"), "iso-8859-1"), BarcodeFormat.QR_CODE, 200, 200, hints);
+                Path path = FileSystems.getDefault().getPath(localPath, fileName);
+                MatrixToImageWriter.writeToPath(byteMatrix, "png", path);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
         }
 
         return "result";
