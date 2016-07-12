@@ -8,9 +8,8 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title><spring:message code="companyName"></spring:message>北京国经富华矿业有限责任公司</title>
-    <meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
-    <meta name="author" content="htmlcoder.me">
+    <title><spring:message code="head.companyName"></spring:message></title>
+    <meta name="description" content="北京国经富华矿业有限责任公司">
 
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,28 +47,28 @@
 <header class="header fixed clearfix navbar navbar-fixed-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
 
                 <!-- header-left start -->
                 <!-- ================ -->
                 <div class="header-left clearfix">
 
                     <!-- logo -->
-                    <div class="logo smooth-scroll">
-                        <a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
-                    </div>
+                    <%--<div class="logo smooth-scroll">--%>
+                        <%--<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>--%>
+                    <%--</div>--%>
 
                     <!-- name-and-slogan -->
                     <div class="site-name-and-slogan smooth-scroll">
-                        <div class="site-name"><a href="#banner">北京国经富华</a></div>
-                        <div class="site-slogan">Beijing Guojing Fuhwa CO.,LTD</div>
+                        <div class="site-name"><a href="#banner"><spring:message code="head.companyName"></spring:message></a></div>
+                        <div class="site-slogan"><spring:message code="head.companyName.en"></spring:message></div>
                     </div>
 
                 </div>
                 <!-- header-left end -->
 
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
 
                 <!-- header-right start -->
                 <!-- ================ -->
@@ -97,12 +96,12 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a href="#banner">主页</a></li>
-                                        <li><a href="#about">关于</a></li>
-                                        <li><a href="#services">服务</a></li>
-                                        <%--<li><a href="#portfolio">产品</a></li>--%>
-                                        <li><a href="#clients">客户</a></li>
-                                        <li><a href="#contact">联系我们</a></li>
+                                        <li class="active"><a href="#banner"><spring:message code="menu.home"></spring:message></a></li>
+                                        <li><a href="#about"><spring:message code="menu.about"></spring:message></a></li>
+                                        <li><a href="#services"><spring:message code="menu.service"></spring:message></a></li>
+                                        <li><a href="#presentation"><spring:message code="menu.presentation"></spring:message></a></li>
+                                        <li><a href="#clients"><spring:message code="menu.clients"></spring:message></a></li>
+                                        <li><a href="#contact"><spring:message code="menu.contactUs"></spring:message></a></li>
                                     </ul>
                                 </div>
 
@@ -130,8 +129,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-                    <h1 class="text-center">我们 <span>国经富华</span></h1>
-                    <p class="lead text-center">销售金属矿石、金属材料、技术推广、经济贸易咨询、投资管理</p>
+                    <h1 class="text-center"><spring:message code="about.our"></spring:message>&nbsp;<span><spring:message code="about.companyName"></spring:message></span></h1>
+                    <p class="lead text-center"><spring:message code="companyBusiness"></spring:message></p>
                 </div>
             </div>
         </div>
@@ -145,7 +144,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 id="about" class="title text-center">关于 <span>国经富华</span></h1>
+                <h1 id="about" class="title text-center"><spring:message code="about.title"></spring:message>&nbsp;<span><spring:message code="about.companyName"></spring:message></span></h1>
                 <div class="space"></div>
                 <div class="row">
                     <div class="col-md-6">
@@ -153,15 +152,15 @@
                         <div class="space"></div>
                     </div>
                     <div class="col-md-6">
-                        <p>北京国经富华矿业有限责任公司成立与2013年,主要以销售金属矿石、金属材料、技术推广、经济贸易咨询、投资管理为经营范围,为数千家企业提供解决方案、经济咨询、知识产权咨询、管理咨询、海外投资咨询、国际商务咨询等服务,为企业发展方向提供一体化服务。</p>
-                        <p>我们为企业不仅提供详细的咨询服务,更为企业定制海外战略方案、技术推广等核心服务,为企业提高竞争力。</p>
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxx xxxxxx xxxxxxxx xxxxxx</li>
-                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xx xxxxx xxxx xxxxxx xxx</li>
-                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxxx xxxxxxx xx xxx xxx xxx</li>
-                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xxx xxxx xxxxx xxxx xxxx</li>
-                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxxx xxxxxxx xxxxxxx</li>
-                        </ul>
+                        <p><spring:message code="about.profile1"></spring:message></p>
+                        <p><spring:message code="about.profile2"></spring:message></p>
+                        <%--<ul class="list-unstyled">--%>
+                            <%--<li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxx xxxxxx xxxxxxxx xxxxxx</li>--%>
+                            <%--<li><i class="fa fa-caret-right pr-10 text-colored"></i> xx xxxxx xxxx xxxxxx xxx</li>--%>
+                            <%--<li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxxx xxxxxxx xx xxx xxx xxx</li>--%>
+                            <%--<li><i class="fa fa-caret-right pr-10 text-colored"></i> xxx xxxx xxxxx xxxx xxxx</li>--%>
+                            <%--<li><i class="fa fa-caret-right pr-10 text-colored"></i> xxxxx xxxxxxx xxxxxxx</li>--%>
+                        <%--</ul>--%>
                     </div>
                 </div>
                 <%--<div class="space"></div>--%>
@@ -229,14 +228,14 @@
 <!-- ================ -->
 <div class="section translucent-bg bg-image-1 blue">
     <div class="container object-non-visible" data-animation-effect="fadeIn">
-        <h1 id="services"  class="text-center title">服务</h1>
+        <h1 id="services" class="text-center title"><spring:message code="service.title"></spring:message></h1>
         <div class="space"></div>
         <div class="row">
             <div class="col-sm-6">
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">金属矿</h4>
-                        <p>公司致力于在中国国内寻找具有战略意义的金属矿，销售金属矿石和金属材料。现正在收购新疆南晖投资发展有限公司所持有探矿权《甘肃省阿克塞县鄂博图一带同多金属矿普查》证号：T01120080202000329。</p>
+                        <h4 class="media-heading"><spring:message code="service.metalOreSales"></spring:message></h4>
+                        <p><spring:message code="service.metalOreSales.detail"></spring:message></p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-cog"></i>
@@ -244,8 +243,8 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">解决方案</h4>
-                        <p>为企业设计、制定相配套的一体化解决方案，在公司战略开发、经营运作、组织结构等方面提供咨询服务。典型客户：为国经五维（南阳）房地产开发有限公司提供卧龙岗名胜文化旅游景区整体开发、管理、运营方案。</p>
+                        <h4 class="media-heading"><spring:message code="service.solutions"></spring:message></h4>
+                        <p><spring:message code="service.solutions.detail"></spring:message></p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-check"></i>
@@ -253,8 +252,8 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">经济咨询</h4>
-                        <p>为地方政府和企业提供经济咨询。如为北海市人民政府、北海奇珠集团有限公司出具《北部湾沙田港及沙田港临港工业区（中国印尼产业园）产业方案研究》，该研究包括以下内容：北部湾沙田港及中国印尼产业园的发展现状和区位优势；在北部湾沙田港建设中印尼产业园的可行性及战略意义；中印尼经济比较优势及互补性研究；中印尼投资合作体制机制和政策研究；中印尼投资合作风险评估；沙田港和中印尼产业园运营模式及临港产业选择。</p>
+                        <h4 class="media-heading"><spring:message code="service.economicConsulting"></spring:message></h4>
+                        <p><spring:message code="service.economicConsulting.detail"></spring:message></p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-desktop"></i>
@@ -262,9 +261,8 @@
                 </div>
                 <div class="media">
                     <div class="media-body text-right">
-                        <h4 class="media-heading">战略方案</h4>
-                        <p>帮助中国企业走出去制订战略方案。针对具有强烈走出去愿望的中国大型国有企业，我公司为企业提供国际商务咨询，并为企业拓展国际市场提供战略咨询。典型客户：中国国旅集团有限公司。
-                        </p>
+                        <h4 class="media-heading"><spring:message code="service.strategicPlan"></spring:message></h4>
+                        <p><spring:message code="service.strategicPlan.detail"></spring:message></p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-users"></i>
@@ -278,8 +276,8 @@
                         <i class="fa fa-leaf"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">知识产权咨询</h4>
-                        <p>为企业提供知识产权咨询，包括知识产权侵权调查、侵权认定、制订知识产权战略、协助企业制订技术研发计划、知识产权防御性布局、知识产权进攻性布局、制订专利申请计划、实施专利保护战略。典型客户：北京珅奥基医药科技有限公司、北京盛诺基医药科技有限公司。</p>
+                        <h4 class="media-heading"><spring:message code="service.intellectualPropertyRights"></spring:message></h4>
+                        <p><spring:message code="service.intellectualPropertyRights.detail"></spring:message></p>
                     </div>
                 </div>
                 <div class="media">
@@ -287,8 +285,8 @@
                         <i class="fa fa-area-chart"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">管理咨询</h4>
-                        <p>为企业提供投资管理咨询。为国经创新（北京）投资管理有限公司提供常年投资管理咨询，为该公司在山东省威海市双岛湾整体开发项目提供投资咨询，设计投资架构，并向该公司推荐战略合作伙伴。</p>
+                        <h4 class="media-heading"><spring:message code="service.investmentManagementConsulting"></spring:message></h4>
+                        <p><spring:message code="service.investmentManagementConsulting.detail"></spring:message></p>
                     </div>
                 </div>
                 <div class="media">
@@ -296,8 +294,8 @@
                         <i class="fa fa-child"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">推广服务</h4>
-                        <p>为企业技术推广提供服务，为国内外企业在技术推广方面提供针对性的咨询服务。如为华广裕有限公司的互联网应用技术开发应用、进入中国市场提供全方位的咨询服务，帮助其在中国建立了技术推广公司，并协助该公司在中国开展业务、寻找合作伙伴，公司进入了良性发展轨道。</p>
+                        <h4 class="media-heading"><spring:message code="service.technologyPromotion"></spring:message></h4>
+                        <p><spring:message code="service.technologyPromotion.detail"></spring:message></p>
                     </div>
                 </div>
                 <div class="media">
@@ -305,8 +303,8 @@
                         <i class="fa fa-codepen"></i>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">海外投资咨询</h4>
-                        <p>为中国企业投资海外进行咨询服务。为中国企业到美国等国家进行投资提供信息服务、进行尽职调查、对投资对象进行详细考察，制订投资实施方案，协助完成投资工作。
+                        <h4 class="media-heading"><spring:message code="service.overseasInvestmentAdvisory"></spring:message></h4>
+                        <p><spring:message code="service.overseasInvestmentAdvisory.detail"></spring:message>
                         </p>
                     </div>
                 </div>
@@ -331,16 +329,16 @@
 
 <!-- section start -->
 <!-- ================ -->
-<%--<div class="section">--%>
-    <%--<div class="container">--%>
-        <%--<h1 class="text-center title" id="portfolio">Portfolio</h1>--%>
-        <%--<div class="separator"></div>--%>
+<div class="section">
+    <div class="container">
+        <h1 class="text-center title" id="presentation"><spring:message code="presentation.title"></spring:message></h1>
+        <div class="separator"></div>
         <%--<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>--%>
-        <%--<br>--%>
-        <%--<div class="row object-non-visible" data-animation-effect="fadeIn">--%>
-            <%--<div class="col-md-12">--%>
+        <br>
+        <div class="row object-non-visible" data-animation-effect="fadeIn">
+            <div class="col-md-12">
 
-                <%--<!-- isotope filters start -->--%>
+                <!-- isotope filters start -->
                 <%--<div class="filters text-center">--%>
                     <%--<ul class="nav nav-pills">--%>
                         <%--<li class="active"><a href="#" data-filter="*">All</a></li>--%>
@@ -349,22 +347,22 @@
                         <%--<li><a href="#" data-filter=".site-building">Site building</a></li>--%>
                     <%--</ul>--%>
                 <%--</div>--%>
-                <%--<!-- isotope filters end -->--%>
+                <!-- isotope filters end -->
 
-                <%--<!-- portfolio items start -->--%>
-                <%--<div class="isotope-container row grid-space-20">--%>
-                    <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
-                        <%--<div class="image-box">--%>
-                            <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-1.jpg" alt="">--%>
+                <!-- presentation items start -->
+                <div class="isotope-container row grid-space-20">
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/presentation/IMG_3629.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-1">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
                                 <%--</a>--%>
-                            <%--</div>--%>
+                            </div>
                             <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal -->--%>
+                        </div>
+                        <!-- Modal -->
                         <%--<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">--%>
                             <%--<div class="modal-dialog modal-lg">--%>
                                 <%--<div class="modal-content">--%>
@@ -380,7 +378,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-1.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-1.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -390,21 +388,21 @@
                                 <%--</div>--%>
                             <%--</div>--%>
                         <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
-                    <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
 
-                    <%--<div class="col-sm-6 col-md-3 isotope-item app-development">--%>
-                        <%--<div class="image-box">--%>
-                            <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-2.jpg" alt="">--%>
+                    <div class="col-sm-6 col-md-3 isotope-item app-development">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/presentation/IMG_4551.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-2">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>App Development</span>--%>
                                 <%--</a>--%>
-                            <%--</div>--%>
+                            </div>
                             <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal -->--%>
+                        </div>
+                        <!-- Modal -->
                         <%--<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">--%>
                             <%--<div class="modal-dialog modal-lg">--%>
                                 <%--<div class="modal-content">--%>
@@ -420,7 +418,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-2.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-2.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -430,21 +428,21 @@
                                 <%--</div>--%>
                             <%--</div>--%>
                         <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
-                    <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
 
-                    <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
-                        <%--<div class="image-box">--%>
-                            <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-3.jpg" alt="">--%>
+                    <div class="col-sm-6 col-md-3 isotope-item web-design">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/presentation/IMG_3411.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-3">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
                                 <%--</a>--%>
-                            <%--</div>--%>
+                            </div>
                             <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Project Title</a>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal -->--%>
+                        </div>
+                        <!-- Modal -->
                         <%--<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">--%>
                             <%--<div class="modal-dialog modal-lg">--%>
                                 <%--<div class="modal-content">--%>
@@ -460,7 +458,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-3.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-3.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -470,21 +468,21 @@
                                 <%--</div>--%>
                             <%--</div>--%>
                         <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
-                    <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
 
-                    <%--<div class="col-sm-6 col-md-3 isotope-item site-building">--%>
-                        <%--<div class="image-box">--%>
-                            <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-4.jpg" alt="">--%>
+                    <div class="col-sm-6 col-md-3 isotope-item site-building">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/presentation/IMG_1554.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-4">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Site Building</span>--%>
                                 <%--</a>--%>
-                            <%--</div>--%>
+                            </div>
                             <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Project Title</a>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal -->--%>
+                        </div>
+                        <!-- Modal -->
                         <%--<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">--%>
                             <%--<div class="modal-dialog modal-lg">--%>
                                 <%--<div class="modal-content">--%>
@@ -500,7 +498,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-4.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-4.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -510,21 +508,21 @@
                                 <%--</div>--%>
                             <%--</div>--%>
                         <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
-                    <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
 
-                    <%--<div class="col-sm-6 col-md-3 isotope-item app-development">--%>
-                        <%--<div class="image-box">--%>
-                            <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-5.jpg" alt="">--%>
+                    <div class="col-sm-6 col-md-3 isotope-item app-development">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/presentation/IMG_2965.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-5">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>App Development</span>--%>
                                 <%--</a>--%>
-                            <%--</div>--%>
+                            </div>
                             <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Project Title</a>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal -->--%>
+                        </div>
+                        <!-- Modal -->
                         <%--<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">--%>
                             <%--<div class="modal-dialog modal-lg">--%>
                                 <%--<div class="modal-content">--%>
@@ -540,7 +538,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-5.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-5.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -550,13 +548,13 @@
                                 <%--</div>--%>
                             <%--</div>--%>
                         <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
-                    <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
 
                     <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-6.jpg" alt="">--%>
+                                <%--<img src="images/presentation-6.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
@@ -580,7 +578,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-6.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-6.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -596,7 +594,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item site-building">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-7.jpg" alt="">--%>
+                                <%--<img src="images/presentation-7.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-7">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Site Building</span>--%>
@@ -620,7 +618,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-7.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-7.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -636,7 +634,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-8.jpg" alt="">--%>
+                                <%--<img src="images/presentation-8.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-8">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
@@ -660,7 +658,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-8.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-8.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -676,7 +674,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-9.jpg" alt="">--%>
+                                <%--<img src="images/presentation-9.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-9">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
@@ -700,7 +698,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-9.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-9.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -716,7 +714,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item site-building">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-10.jpg" alt="">--%>
+                                <%--<img src="images/presentation-10.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-10">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Site Building</span>--%>
@@ -740,7 +738,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-10.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-10.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -756,7 +754,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item web-design">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-11.jpg" alt="">--%>
+                                <%--<img src="images/presentation-11.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-11">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>Web Design</span>--%>
@@ -780,7 +778,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-11.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-11.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -796,7 +794,7 @@
                     <%--<div class="col-sm-6 col-md-3 isotope-item app-development">--%>
                         <%--<div class="image-box">--%>
                             <%--<div class="overlay-container">--%>
-                                <%--<img src="images/portfolio-12.jpg" alt="">--%>
+                                <%--<img src="images/presentation-12.jpg" alt="">--%>
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-12">--%>
                                     <%--<i class="fa fa-search-plus"></i>--%>
                                     <%--<span>App Development</span>--%>
@@ -820,7 +818,7 @@
                                                 <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
                                             <%--</div>--%>
                                             <%--<div class="col-md-6">--%>
-                                                <%--<img src="images/portfolio-12.jpg" alt="">--%>
+                                                <%--<img src="images/presentation-12.jpg" alt="">--%>
                                             <%--</div>--%>
                                         <%--</div>--%>
                                     <%--</div>--%>
@@ -833,29 +831,29 @@
                         <%--<!-- Modal end -->--%>
                     <%--</div>--%>
 
-                <%--</div>--%>
-                <%--<!-- portfolio items end -->--%>
+                </div>
+                <!-- presentation items end -->
 
-            <%--</div>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</div>--%>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- section end -->
 
 <!-- section start -->
 <!-- ================ -->
 <div class="section translucent-bg bg-image-2 pb-clear">
     <div class="container object-non-visible" data-animation-effect="fadeIn">
-        <h1 id="clients" class="title text-center">客户</h1>
+        <h1 id="clients" class="title text-center"><spring:message code="client.title"></spring:message></h1>
         <div class="space"></div>
         <div class="row">
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-1.png" alt="">
+                        <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">中国国旅集团有限公司</h3>
+                        <h3 class="media-heading"><spring:message code="client.CITS"></spring:message></h3>
                         <blockquote>
                             <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -866,10 +864,10 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-2.png" alt="">
+                        <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">北海奇珠集团</h3>
+                        <h3 class="media-heading"><spring:message code="client.BeihaiQizhu"></spring:message></h3>
                         <blockquote>
                             <%--<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -883,7 +881,7 @@
                         <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">国经创新（北京）投资管理有限公司</h3>
+                        <h3 class="media-heading"><spring:message code="client.GuojingInvestmentManagement"></spring:message></h3>
                         <blockquote>
                             <%--<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -896,10 +894,10 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-2.png" alt="">
+                        <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">北京珅奥基医药科技有限公司</h3>
+                        <h3 class="media-heading"><spring:message code="client.BeijingShenOrky"></spring:message></h3>
                         <blockquote>
                             <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -913,7 +911,7 @@
                         <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">北京盛诺基医药科技有限公司</h3>
+                        <h3 class="media-heading"><spring:message code="client.BeijingShengNokia"></spring:message></h3>
                         <blockquote>
                             <%--<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -924,10 +922,10 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-1.png" alt="">
+                        <img src="images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">华广裕有限公司</h3>
+                        <h3 class="media-heading"><spring:message code="client.HuangGuangyu"></spring:message></h3>
                         <blockquote>
                             <%--<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>--%>
                             <%--<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>--%>
@@ -946,7 +944,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h1 class="text-center">1000+ Happy Clients!</h1>
+                <h1 class="text-center">1000+ Clients!</h1>
             </div>
         </div>
     </div>
@@ -961,12 +959,12 @@
     <!-- ================ -->
     <div class="footer section">
         <div class="container">
-            <h1 class="title text-center" id="contact">联系我们</h1>
+            <h1 class="title text-center" id="contact"><spring:message code="contactUs.title"></spring:message></h1>
             <div class="space"></div>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="footer-content">
-                        <p class="large">欢迎国内外企业访问我们的网站,如需咨询更多信息,请联系我们,我们将以真诚的服务态度,优异的服务水平,丰富的管理经验,为您提供领域内专业的咨询及建议。</p>
+                        <p class="large"><spring:message code="contactUs.word"></spring:message></p>
                         <ul class="social-links">
                             <li class="facebook"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
                             <li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
@@ -982,10 +980,10 @@
                 <div class="col-sm-6">
                     <div class="footer-content">
                         <ul class="list-icons">
-                            <li><i class="fa fa-map-marker pr-10"></i> 北京市通州区中关村科技园区, 通州园光机电一体化产业基地政府路2号</li>
-                            <li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-                            <li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-                            <li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
+                            <li><i class="fa fa-map-marker pr-10"></i> <spring:message code="contactUs.address"></spring:message></li>
+                            <li><i class="fa fa-phone pr-10"></i> +86 (10) 66019979</li>
+                            <li><i class="fa fa-fax pr-10"></i>+86 (10) 66018978</li>
+                            <li><i class="fa fa-envelope-o pr-10"></i>15611344439@163.com</li>
                         </ul>
                     </div>
                 </div>
@@ -1000,7 +998,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-center">Copyright © 2016.</p>
+                    <p class="text-center"><a href="http://www.miitbeian.gov.cn/">京ICP备16035051号</a>  &nbsp;&nbsp;&nbsp;&nbsp;© 2014 - 2016.</p>
                 </div>
             </div>
         </div>
