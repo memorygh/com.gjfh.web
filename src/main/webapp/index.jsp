@@ -376,118 +376,199 @@
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(95).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-95">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-95"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-95" tabindex="-1" role="dialog"
+                             aria-labelledby="project-95-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-95-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(95).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(111).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-111">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-111"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-111" tabindex="-1" role="dialog"
+                             aria-labelledby="project-111-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-111-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(111).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/IMG_3629.jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-1">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
+                                <%--<a class="overlay" data-toggle="modal" data-target="#project-3629">--%>
+                                    <%--<i class="fa fa-search-plus"></i>--%>
+                                    <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
                                 <%--</a>--%>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-3629"><spring:message
+                                    code="presentation.filter.other.ppp.title"></spring:message></a>
                         </div>
                         <!-- Modal -->
-                        <%--<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-1-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-1.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
+                        <%--<div class="modal fade" id="project-3629" tabindex="-1" role="dialog"--%>
+                             <%--aria-labelledby="project-3629-label" aria-hidden="true">--%>
+                            <%--<div class="modal-dialog modal-lg">--%>
+                                <%--<div class="modal-content">--%>
+                                    <%--<div class="modal-header">--%>
+                                        <%--<button type="button" class="close" data-dismiss="modal"><span--%>
+                                                <%--aria-hidden="true">&times;</span><span class="sr-only">Close</span>--%>
+                                        <%--</button>--%>
+                                        <%--<h4 class="modal-title" id="project-3629-label"><spring:message--%>
+                                                <%--code="presentation.filter.other.ppp.title"></spring:message></h4>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-body">--%>
+                                        <%--<h3>Project Description</h3>--%>
+                                        <%--<div class="row">--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed,--%>
+                                                    <%--quidem quis praesentium, ut unde. Quae sed, incidunt laudantium--%>
+                                                    <%--nesciunt, optio corporis quod earum pariatur omnis illo saepe--%>
+                                                    <%--numquam suscipit, nemo placeat dignissimos eius mollitia et quas--%>
+                                                    <%--officia doloremque ipsum labore rem deserunt vero! Magnam totam--%>
+                                                    <%--delectus accusantium voluptas et, tempora quos atque, fugiat,--%>
+                                                    <%--obcaecati voluptatibus commodi illo voluptates dolore nemo quo--%>
+                                                    <%--soluta quis.</p>--%>
+                                                <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum--%>
+                                                    <%--sapiente obcaecati molestias quasi optio exercitationem, voluptate--%>
+                                                    <%--quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit--%>
+                                                    <%--amet, consectetur adipisicing elit. Eos nobis officiis, autem earum--%>
+                                                    <%--tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor--%>
+                                                    <%--placeat corporis quisquam dolorum at nesciunt.</p>--%>
+                                            <%--</div>--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<img src="images/presentation/IMG_3629.jpg" alt="">--%>
+                                            <%--</div>--%>
+                                        <%--</div>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-footer">--%>
+                                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">--%>
+                                            <%--Close--%>
+                                        <%--</button>--%>
+                                    <%--</div>--%>
+                                <%--</div>--%>
+                            <%--</div>--%>
                         <%--</div>--%>
                         <!-- Modal end -->
                     </div>
@@ -496,118 +577,197 @@
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(215).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-215">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-215"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-215" tabindex="-1" role="dialog"
+                             aria-labelledby="project-215-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-215-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(215).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(223).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-223">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-223"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-223" tabindex="-1" role="dialog"
+                             aria-labelledby="project-223-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-223-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(223).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/IMG_4551.jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-2">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>App Development</span>--%>
+                                <%--<a class="overlay" data-toggle="modal" data-target="#project-4551">--%>
+                                    <%--<i class="fa fa-search-plus"></i>--%>
+                                    <%--<span>App Development</span>--%>
                                 <%--</a>--%>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-4551"><spring:message
+                                    code="presentation.filter.other.zhoushan.title"></spring:message></a>
                         </div>
                         <!-- Modal -->
-                        <%--<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-2-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-2.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
+                        <%--<div class="modal fade" id="project-4551" tabindex="-1" role="dialog"--%>
+                             <%--aria-labelledby="project-4551-label" aria-hidden="true">--%>
+                            <%--<div class="modal-dialog modal-lg">--%>
+                                <%--<div class="modal-content">--%>
+                                    <%--<div class="modal-header">--%>
+                                        <%--<button type="button" class="close" data-dismiss="modal"><span--%>
+                                                <%--aria-hidden="true">&times;</span><span class="sr-only">Close</span>--%>
+                                        <%--</button>--%>
+                                        <%--<h4 class="modal-title" id="project-4551-label"><spring:message--%>
+                                                <%--code="presentation.filter.china-us.title"></spring:message></h4>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-body">--%>
+                                        <%--<h3>Project Description</h3>--%>
+                                        <%--<div class="row">--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed,--%>
+                                                    <%--quidem quis praesentium, ut unde. Quae sed, incidunt laudantium--%>
+                                                    <%--nesciunt, optio corporis quod earum pariatur omnis illo saepe--%>
+                                                    <%--numquam suscipit, nemo placeat dignissimos eius mollitia et quas--%>
+                                                    <%--officia doloremque ipsum labore rem deserunt vero! Magnam totam--%>
+                                                    <%--delectus accusantium voluptas et, tempora quos atque, fugiat,--%>
+                                                    <%--obcaecati voluptatibus commodi illo voluptates dolore nemo quo--%>
+                                                    <%--soluta quis.</p>--%>
+                                                <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum--%>
+                                                    <%--sapiente obcaecati molestias quasi optio exercitationem, voluptate--%>
+                                                    <%--quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit--%>
+                                                    <%--amet, consectetur adipisicing elit. Eos nobis officiis, autem earum--%>
+                                                    <%--tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor--%>
+                                                    <%--placeat corporis quisquam dolorum at nesciunt.</p>--%>
+                                            <%--</div>--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<img src="images/presentation/IMG_4551.jpg" alt="">--%>
+                                            <%--</div>--%>
+                                        <%--</div>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-footer">--%>
+                                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">--%>
+                                            <%--<spring:message code="btn.close"></spring:message></button>--%>
+                                    <%--</div>--%>
+                                <%--</div>--%>
+                            <%--</div>--%>
                         <%--</div>--%>
                         <!-- Modal end -->
                     </div>
@@ -616,198 +776,337 @@
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(78).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-78">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-78"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-78" tabindex="-1" role="dialog"
+                             aria-labelledby="project-78-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-78-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(78).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(103).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-103">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-103"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-103" tabindex="-1" role="dialog"
+                             aria-labelledby="project-103-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-103-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(103).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(178).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-178">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-178"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-178" tabindex="-1" role="dialog"
+                             aria-labelledby="project-178-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-178-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(178).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(115).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-115">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-115"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-115" tabindex="-1" role="dialog"
+                             aria-labelledby="project-115-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-115-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(115).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/IMG_3411.jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-3">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
+                                <%--<a class="overlay" data-toggle="modal" data-target="#project-3411">--%>
+                                    <%--<i class="fa fa-search-plus"></i>--%>
+                                    <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
                                 <%--</a>--%>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-3411"><spring:message
+                                    code="presentation.filter.other.beibeilongcheng.title"></spring:message></a>
                         </div>
                         <!-- Modal -->
-                        <%--<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-3-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-3.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
+                        <%--<div class="modal fade" id="project-3411" tabindex="-1" role="dialog"--%>
+                             <%--aria-labelledby="project-3411-label" aria-hidden="true">--%>
+                            <%--<div class="modal-dialog modal-lg">--%>
+                                <%--<div class="modal-content">--%>
+                                    <%--<div class="modal-header">--%>
+                                        <%--<button type="button" class="close" data-dismiss="modal"><span--%>
+                                                <%--aria-hidden="true">&times;</span><span class="sr-only">Close</span>--%>
+                                        <%--</button>--%>
+                                        <%--<h4 class="modal-title" id="project-3411-label"><spring:message--%>
+                                                <%--code="presentation.filter.other.beibeilongcheng.title"></spring:message></h4>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-body">--%>
+                                        <%--<h3>Project Description</h3>--%>
+                                        <%--<div class="row">--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed,--%>
+                                                    <%--quidem quis praesentium, ut unde. Quae sed, incidunt laudantium--%>
+                                                    <%--nesciunt, optio corporis quod earum pariatur omnis illo saepe--%>
+                                                    <%--numquam suscipit, nemo placeat dignissimos eius mollitia et quas--%>
+                                                    <%--officia doloremque ipsum labore rem deserunt vero! Magnam totam--%>
+                                                    <%--delectus accusantium voluptas et, tempora quos atque, fugiat,--%>
+                                                    <%--obcaecati voluptatibus commodi illo voluptates dolore nemo quo--%>
+                                                    <%--soluta quis.</p>--%>
+                                                <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum--%>
+                                                    <%--sapiente obcaecati molestias quasi optio exercitationem, voluptate--%>
+                                                    <%--quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit--%>
+                                                    <%--amet, consectetur adipisicing elit. Eos nobis officiis, autem earum--%>
+                                                    <%--tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor--%>
+                                                    <%--placeat corporis quisquam dolorum at nesciunt.</p>--%>
+                                            <%--</div>--%>
+                                            <%--<div class="col-md-6">--%>
+                                                <%--<img src="images/presentation/IMG_3411.jpg" alt="">--%>
+                                            <%--</div>--%>
+                                        <%--</div>--%>
+                                    <%--</div>--%>
+                                    <%--<div class="modal-footer">--%>
+                                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">--%>
+                                            <%--<spring:message code="btn.close"></spring:message></button>--%>
+                                    <%--</div>--%>
+                                <%--</div>--%>
+                            <%--</div>--%>
                         <%--</div>--%>
                         <!-- Modal end -->
                     </div>
@@ -816,160 +1115,280 @@
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(267).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-267">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-267"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-267" tabindex="-1" role="dialog"
+                             aria-labelledby="project-267-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-267-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(267).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(298).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-298">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-298"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-298" tabindex="-1" role="dialog"
+                             aria-labelledby="project-298-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-298-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(298).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(302).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-302">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-302"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-302" tabindex="-1" role="dialog"
+                             aria-labelledby="project-302-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-302-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(302).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
                                 <img src="images/presentation/20161207-(320).jpg" alt="">
-                                <%--<a class="overlay" data-toggle="modal" data-target="#project-6">--%>
-                                <%--<i class="fa fa-search-plus"></i>--%>
-                                <%--<span>Web Design</span>--%>
-                                <%--</a>--%>
+                                <a class="overlay" data-toggle="modal" data-target="#project-320">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span><spring:message code="presentation.filter.detail"></spring:message></span>
+                                </a>
                             </div>
-                            <%--<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>--%>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-320"><spring:message
+                                    code="presentation.filter.china-us.title"></spring:message></a>
                         </div>
-                        <%--<!-- Modal -->--%>
-                        <%--<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">--%>
-                        <%--<div class="modal-dialog modal-lg">--%>
-                        <%--<div class="modal-content">--%>
-                        <%--<div class="modal-header">--%>
-                        <%--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>--%>
-                        <%--<h4 class="modal-title" id="project-6-label">Project Title</h4>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-body">--%>
-                        <%--<h3>Project Description</h3>--%>
-                        <%--<div class="row">--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>--%>
-                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>--%>
-                        <%--</div>--%>
-                        <%--<div class="col-md-6">--%>
-                        <%--<img src="images/presentation-6.jpg" alt="">--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<div class="modal-footer">--%>
-                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--</div>--%>
-                        <%--<!-- Modal end -->--%>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-320" tabindex="-1" role="dialog"
+                             aria-labelledby="project-320-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-320-label"><spring:message
+                                                code="presentation.filter.china-us.title"></spring:message></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <%--<h3>Project Description</h3>--%>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.1"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.2"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.3"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.4"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.5"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.6"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.7"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.8"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.9"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.10"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.11"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.12"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.13"></spring:message></p>
+                                                <h4><spring:message code="presentation.filter.china-us.detail.info.14"></spring:message></h4>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.15"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.16"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.17"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.18"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.19"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.20"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.21"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.22"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.23"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.24"></spring:message></p>
+                                                <p><spring:message code="presentation.filter.china-us.detail.info.omit"></spring:message></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/presentation/20161207-(320).jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            <spring:message code="btn.close"></spring:message></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
                     </div>
 
                 </div>
