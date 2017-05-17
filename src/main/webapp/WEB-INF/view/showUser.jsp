@@ -14,6 +14,7 @@
         $(function () {
             alert("测试静态资源加载");
         });
+        <%--var contextPath = "${pageContext.request.contextPath}";--%>
     </script>
 </head>
 <body>

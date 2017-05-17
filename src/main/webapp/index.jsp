@@ -161,7 +161,7 @@
                 <div class="space"></div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="images/section-image-1.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/section-image-1.png" alt="">
                         <div class="space"></div>
                     </div>
                     <div class="col-md-6">
@@ -375,7 +375,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/20161207-(115).jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/20161207-(115).jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-115">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
@@ -383,7 +383,7 @@
                             </div>
                             <a class="btn btn-default btn-block normal-text" data-toggle="modal"
                                data-target="#project-115"><spring:message
-                                    code="presentation.filter.china-us.title"></spring:message></a>
+                                    code="presentation.filter.china-us.title1"></spring:message></a>
                         </div>
                         <!-- Modal -->
                         <%--<div class="modal fade" id="project-115" tabindex="-1" role="dialog"--%>
@@ -445,7 +445,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/20161207-(103).jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/20161207-(103).jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-103">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
@@ -453,7 +453,7 @@
                             </div>
                             <a class="btn btn-default btn-block normal-text" data-toggle="modal"
                                data-target="#project-103"><spring:message
-                                    code="presentation.filter.china-us.title"></spring:message></a>
+                                    code="presentation.filter.china-us.title3"></spring:message></a>
                         </div>
                         <!-- Modal -->
                         <%--<div class="modal fade" id="project-103" tabindex="-1" role="dialog"--%>
@@ -515,7 +515,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/20161207-(267).jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/20161207-(267).jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-267">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
@@ -523,7 +523,7 @@
                             </div>
                             <a class="btn btn-default btn-block normal-text" data-toggle="modal"
                                data-target="#project-267"><spring:message
-                                    code="presentation.filter.china-us.title"></spring:message></a>
+                                    code="presentation.filter.china-us.title2"></spring:message></a>
                         </div>
                         <!-- Modal -->
                         <%--<div class="modal fade" id="project-267" tabindex="-1" role="dialog"--%>
@@ -585,7 +585,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/IMG_3629.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/IMG_3629.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-3629">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
@@ -645,7 +645,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/IMG_4551.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/IMG_4551.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-4551">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span>App Development</span>--%>
@@ -704,7 +704,7 @@
                     <div class="col-sm-6 col-md-3 isotope-item other">
                         <div class="image-box">
                             <div class="overlay-container">
-                                <img src="images/presentation/IMG_3411.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/images/presentation/IMG_3411.jpg" alt="">
                                 <%--<a class="overlay" data-toggle="modal" data-target="#project-3411">--%>
                                 <%--<i class="fa fa-search-plus"></i>--%>
                                 <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
@@ -779,7 +779,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message code="client.CITS"></spring:message></h3>
@@ -793,7 +793,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message code="client.BeihaiQizhu"></spring:message></h3>
@@ -807,7 +807,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message
@@ -824,7 +824,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message code="client.BeijingShenOrky"></spring:message></h3>
@@ -838,7 +838,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message code="client.BeijingShengNokia"></spring:message></h3>
@@ -852,7 +852,7 @@
             <div class="col-md-4">
                 <div class="media testimonial">
                     <div class="media-left">
-                        <img src="images/testimonial-3.png" alt="">
+                        <img src="${pageContext.request.contextPath}/images/testimonial-3.png" alt="">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><spring:message code="client.HuangGuangyu"></spring:message></h3>
@@ -920,6 +920,7 @@
                         <ul class="list-icons">
                             <li><i class="fa fa-map-marker pr-10"></i> <spring:message
                                     code="contactUs.address"></spring:message></li>
+                            <li><i class="fa fa-phone pr-10"></i> 010 - 80823610</li>
                             <li><i class="fa fa-phone pr-10"></i> +86 (10) 66019979</li>
                             <li><i class="fa fa-fax pr-10"></i>+86 (10) 66018978</li>
                             <li><i class="fa fa-envelope-o pr-10"></i>15611344439@163.com</li>
@@ -938,7 +939,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-center"><a href="http://www.miitbeian.gov.cn/">京ICP备16035051号</a> &nbsp;&nbsp;&nbsp;&nbsp;©
-                        2014 - 2016.</p>
+                        2014 - 2016.
+                        <span class="lang"><a href="${pageContext.request.contextPath}/globalController/language?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="${pageContext.request.contextPath}/globalController/language?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>
+                    </p>
                 </div>
             </div>
         </div>

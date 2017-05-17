@@ -12,3 +12,7 @@ File Description: Place here your custom CSS styles
     white-space: pre-wrap;
     text-align: left;
 }
+
+.lang {
+    float: right;
+}
