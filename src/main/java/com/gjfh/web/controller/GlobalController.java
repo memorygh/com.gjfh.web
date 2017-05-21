@@ -24,7 +24,7 @@ import java.util.Locale;
 public class GlobalController {
 
     @Autowired
-    CookieLocaleResolver resolver;
+    SessionLocaleResolver resolver;
 
     @RequestMapping("language")
     public String language(HttpServletRequest request, HttpServletResponse response, String language) {
@@ -39,7 +39,8 @@ public class GlobalController {
                 Locale localeUS = new Locale("en", "US");
                 resolver.setLocale(request, response, localeUS);
             } else {
-                resolver.setLocale(request, response, Locale.CHINA);
+                Locale localeUS = new Locale("en", "US");
+                resolver.setLocale(request, response, localeUS);
             }
         }
         RequestContext requestContext = new RequestContext(request);

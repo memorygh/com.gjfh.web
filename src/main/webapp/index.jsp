@@ -920,7 +920,7 @@
                         <ul class="list-icons">
                             <li><i class="fa fa-map-marker pr-10"></i> <spring:message
                                     code="contactUs.address"></spring:message></li>
-                            <li><i class="fa fa-phone pr-10"></i> 010 - 80823610</li>
+                            <li><i class="fa fa-phone pr-10"></i> +86 (10) 80823610</li>
                             <li><i class="fa fa-phone pr-10"></i> +86 (10) 66019979</li>
                             <li><i class="fa fa-fax pr-10"></i>+86 (10) 66018978</li>
                             <li><i class="fa fa-envelope-o pr-10"></i>15611344439@163.com</li>
@@ -940,7 +940,7 @@
                 <div class="col-md-12">
                     <p class="text-center"><a href="http://www.miitbeian.gov.cn/">京ICP备16035051号</a> &nbsp;&nbsp;&nbsp;&nbsp;©
                         2014 - 2016.
-                        <span class="lang"><a href="${pageContext.request.contextPath}/globalController/language?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="${pageContext.request.contextPath}/globalController/language?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>
+                        <span class="lang"><a href="${pageContext.request.contextPath}/globalController/language?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="/globalController/language?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>
                     </p>
                 </div>
             </div>
