@@ -20,18 +20,17 @@ import java.util.Locale;
  * Created by Memory on 2017/5/17.
  */
 @Controller
-@RequestMapping("/globalController")
+@RequestMapping("/global")
 public class GlobalController {
 
     @Autowired
-    SessionLocaleResolver resolver;
+    CookieLocaleResolver resolver;
 
     @RequestMapping("language")
-    public String language(HttpServletRequest request, HttpServletResponse response, String language) {
+    public ModelAndView language(HttpServletRequest request, HttpServletResponse response, String language) {
 
         if (language == null || language.equals("")) {
-//            return new ModelAndView("redirect:/");
-            return "../../index";
+            return new ModelAndView("redirect:/");
         } else {
             if (language.equals("zh_CN")) {
                 resolver.setLocale(request, response, Locale.CHINA);
@@ -45,7 +44,6 @@ public class GlobalController {
         }
         RequestContext requestContext = new RequestContext(request);
         System.out.println(requestContext.getMessage("head.companyName"));
-//        return new ModelAndView("redirect:/");
-        return "../../index";
+        return new ModelAndView("redirect:/");
     }
 }

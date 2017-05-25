@@ -372,6 +372,66 @@
 
                 <!-- presentation items start -->
                 <div class="isotope-container row grid-space-20">
+
+                    <div class="col-sm-6 col-md-3 isotope-item other">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="${pageContext.request.contextPath}/images/presentation/20160307.jpeg" alt="">
+                                <%--<a class="overlay" data-toggle="modal" data-target="#project-3411">--%>
+                                <%--<i class="fa fa-search-plus"></i>--%>
+                                <%--<span><spring:message code="presentation.filter.detail"></spring:message></span>--%>
+                                <%--</a>--%>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal"
+                               data-target="#project-3411"><spring:message
+                                    code="presentation.filter.other.guojingfuhwa.title"></spring:message></a>
+                        </div>
+                        <!-- Modal -->
+                        <%--<div class="modal fade" id="project-3411" tabindex="-1" role="dialog"--%>
+                        <%--aria-labelledby="project-3411-label" aria-hidden="true">--%>
+                        <%--<div class="modal-dialog modal-lg">--%>
+                        <%--<div class="modal-content">--%>
+                        <%--<div class="modal-header">--%>
+                        <%--<button type="button" class="close" data-dismiss="modal"><span--%>
+                        <%--aria-hidden="true">&times;</span><span class="sr-only">Close</span>--%>
+                        <%--</button>--%>
+                        <%--<h4 class="modal-title" id="project-3411-label"><spring:message--%>
+                        <%--code="presentation.filter.other.beibeilongcheng.title"></spring:message></h4>--%>
+                        <%--</div>--%>
+                        <%--<div class="modal-body">--%>
+                        <%--<h3>Project Description</h3>--%>
+                        <%--<div class="row">--%>
+                        <%--<div class="col-md-6">--%>
+                        <%--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed,--%>
+                        <%--quidem quis praesentium, ut unde. Quae sed, incidunt laudantium--%>
+                        <%--nesciunt, optio corporis quod earum pariatur omnis illo saepe--%>
+                        <%--numquam suscipit, nemo placeat dignissimos eius mollitia et quas--%>
+                        <%--officia doloremque ipsum labore rem deserunt vero! Magnam totam--%>
+                        <%--delectus accusantium voluptas et, tempora quos atque, fugiat,--%>
+                        <%--obcaecati voluptatibus commodi illo voluptates dolore nemo quo--%>
+                        <%--soluta quis.</p>--%>
+                        <%--<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum--%>
+                        <%--sapiente obcaecati molestias quasi optio exercitationem, voluptate--%>
+                        <%--quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit--%>
+                        <%--amet, consectetur adipisicing elit. Eos nobis officiis, autem earum--%>
+                        <%--tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor--%>
+                        <%--placeat corporis quisquam dolorum at nesciunt.</p>--%>
+                        <%--</div>--%>
+                        <%--<div class="col-md-6">--%>
+                        <%--<img src="images/presentation/IMG_3411.jpg" alt="">--%>
+                        <%--</div>--%>
+                        <%--</div>--%>
+                        <%--</div>--%>
+                        <%--<div class="modal-footer">--%>
+                        <%--<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">--%>
+                        <%--<spring:message code="btn.close"></spring:message></button>--%>
+                        <%--</div>--%>
+                        <%--</div>--%>
+                        <%--</div>--%>
+                        <%--</div>--%>
+                        <!-- Modal end -->
+                    </div>
+
                     <div class="col-sm-6 col-md-3 isotope-item china-us">
                         <div class="image-box">
                             <div class="overlay-container">
@@ -940,7 +1000,8 @@
                 <div class="col-md-12">
                     <p class="text-center"><a href="http://www.miitbeian.gov.cn/">京ICP备16035051号</a> &nbsp;&nbsp;&nbsp;&nbsp;©
                         2014 - 2016.
-                        <span class="lang"><a href="${pageContext.request.contextPath}/globalController/language?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="/globalController/language?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>
+                        <span class="lang"><a href="${pageContext.request.contextPath}/global/language?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="${pageContext.request.contextPath}/global/language?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>
+                        <%--<span class="lang"><a href="?language=zh_CN"><spring:message code="language.zh_CN"></spring:message></a> | <a href="?language=en_US"><spring:message code="language.en_US"></spring:message></a></span>--%>
                     </p>
                 </div>
             </div>

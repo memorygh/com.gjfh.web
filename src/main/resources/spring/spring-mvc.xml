@@ -54,11 +54,19 @@
     <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
         <property name="paramName" value="language" />
     </bean>
-    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
         <property name="defaultLocale" value="en_US"/>
-        <!--<property name="cookieMaxAge" value="604800"/>-->
-        <!--<property name="cookieName" value="language"/>-->
+        <property name="cookieMaxAge" value="604800"/>
+        <property name="cookieName" value="language"/>
     </bean>
+
+    <!--<bean id="handlerMapping"-->
+          <!--class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">-->
+        <!--<property name="interceptors">-->
+            <!--<ref bean="localeChangeInterceptor" />-->
+        <!--</property>-->
+    <!--</bean>-->
 
     <mvc:interceptors>
         <mvc:interceptor>
@@ -68,6 +76,4 @@
     </mvc:interceptors>
     <!-- 国际化 end -->
 
-   <!--<mvc:view-controller path="/i18n" view-name="i18n1"/>-->
-    <!--<mvc:view-controller path="/i18n1" view-name="i18n2"/>-->
 </beans>
